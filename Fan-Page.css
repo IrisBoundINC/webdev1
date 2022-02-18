@@ -1,0 +1,21 @@
+html {
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-family: cursive;
+    border-style: solid white;
+    margin: 0px 1000px 0px 100px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: solid white;
+}
+
+h3 {
+    font-family: Lobster;
+    align-self: center;
+}
