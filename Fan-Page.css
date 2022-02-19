@@ -1,21 +1,60 @@
-html {
-    color: black;
+body {
+    background: black;
+    text-align: center;
+}
+
+header {
+    margin: 10px 200px 10px 200px;
+    padding: 20px;
+    border: 10px solid white;
+}
+
+section {
+    color: white;
+    margin: 200px;
+}
+
+div {
+    margin: 100px 10px 100px 10px;
+    padding: 5px;
+    border: 3px solid white;
+}
+
+a {
+    background: black;
+    border-style: solid white;
+    border: 3px;
+    margin: 25px; 
+}
+
+p {
+    color: white;
+    font-family: cursive;
+    border-style: dashed white;
+    margin: 50px 50px 10px 50px;
 }
 
 h1 {
-    color: black;
+    color: white;
+    font-size: 64px;
     font-family: cursive;
     border-style: solid white;
-    margin: 0px 1000px 0px 100px;
 }
 
 h2 {
-    color: black;
+    color: cyan;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-style: solid white;
 }
 
 h3 {
+    color: white;
+    background: black;
     font-family: Lobster;
-    align-self: center;
+    margin: 10px 0px 0px 0px;
+}
+
+footer {
+    color: white;
+    text-align: left;
 }
