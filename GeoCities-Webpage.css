@@ -1,0 +1,95 @@
+html {
+    background-color: black;
+}
+
+header{
+    color: green;
+    border-top: solid darkblue 5px;
+    border-left: solid darkblue 10px;
+    border-right: solid darkblue 10px;
+    border-bottom: solid darkblue 5px
+}
+
+body {
+    color: white;
+    background-image: url('https://images.alphacoders.com/687/687048.png');
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 5px;
+    padding: 5px 10px 10px 5px;
+    font-size: 64px;
+
+}
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    margin: 0px;
+    padding: 5px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    padding: 5px;
+}
+
+h4 {
+    background-color: green;
+    margin: 0px;
+    padding: 5px;
+    border-left: solid green 5px;
+}
+
+p {
+    margin: 0px;
+    border-left: solid green 5px;
+    color: grey;
+}
+
+img {
+    size: 10px;
+}
+
+section {
+    text-align: center;
+}
+
+ul {
+    border-right: green;
+    background-color: green;
+    margin: 5px;
+    padding: 10px;
+}
+
+a {
+    border: solid darkblue 2px;
+    margin: 3px;
+    padding: 5px;
+    background-color: white;
+}
+
+div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
+footer {
+    color: grey;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    border-top: green;
+}
