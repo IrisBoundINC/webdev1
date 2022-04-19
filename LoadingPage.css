@@ -1,43 +1,55 @@
+/* Any complex looking css coding was from the help of a friend of mine over on Discord. */
 body {
+    color: white;
+    background-color:black;
+    font-family: cursive;
     text-align: center;
 }
+ 
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-body{
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    background-color: black;
+.text {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
-.progress{
-    position: relative;
-    height: 10px;
-    width: 4110%;
-    border: 10px solid white;
-    border-radius: 15px;
-}
-.progress .color{
-    position: absolute;
+
+.loading {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    width: 0px;
-    height: 10px;
-    border-radius: 15px;
-    animation: progres 4s ease-in;    
+
 }
-@keyframes progres{
-    0%{
-      width: 0%;
+
+.loading .line-box {
+    padding: 2px;
+    width: 40%;
+    height: 20px;
+    border: 2px solid white;
+}
+
+.loading .line-box .line {
+    height: 20px;
+    background: black;
+    animation: loading 2s forwards cubic-bezier(0,0,0,0);
+}
+
+@keyframes loading {
+    0% {
+        width: 0%;
     }
-    25%{
-        width: 50%;
-    }
-    50%{
-        width: 75%;
-    }
-    75%{
-        width: 85%;
-    }
-    100%{
+    100% {
         width: 100%;
     }
-};
+}
