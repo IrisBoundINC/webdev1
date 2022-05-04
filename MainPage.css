@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images4.alphacoders.com/199/thumb-1920-199168.png);
+    background-size: cover;
+}
+
+header {
+    margin: 20px;
+    padding: 20px;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 3px;
+    padding: 3px;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 3px;
+    padding: 3px;
+    color: white;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 3px;
+    padding-bottom: 24px;
+    color: white;
+}
+
+
+main {
+    color: white;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    background-color: black;
+    border: 1px solid white;
+    margin: 24px;
+    padding: 1px; 
+}
